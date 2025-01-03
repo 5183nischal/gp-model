@@ -7,7 +7,6 @@ This repository contains code to simulate the model and analyze data related to 
 You can find the paper here:
 
 * Quick start
-*** 1D
 ***** Import the model objects for 1D as follows:
 
 #+begin_src python
@@ -74,7 +73,12 @@ print(" => Data mean field size = {:.2f}, Model mean field size = {:.2f}".format
 data_1D.analyze_euler_characteristic() # Empirical euler characterstic of the data -- for the model we known the Euler characterstic analytically
 data_1D.scaling = (lambda x, y: x / y)(*comparison('max_firing_rates').mean())
 #+end_src
-*** 3D
+
+***** Finally, you can repeat the same for 3D place fields by importing:
+
+#+begin_src python
+from gp_model import PlaceField3D, PlaceFieldModel3D, PlaceFieldComparison3D
+#+end_src
 
 * Authors
 [[https://nisch.netlify.app/][Nischal Mainali]], [[https://www.silveira-lab.com/rava-azeredo-da-silveira][Rava Azeredo da Silveira]], [[https://www.buraklab.me/team-2][Yoram Burak]]
