@@ -2,9 +2,10 @@
 #+PROPERTY: header-args:python :session py :kernel gp-model
 #+PROPERTY: header-args:python+ :async yes
 
-This repository contains code to simulate the model and analyze data related to thresholded Gaussian process model, which is a model of place maps observed in CA1 region of mammalian hippocampus. The model works across commonalities (1, 2, and 3 dimensional place maps), and across species (bats and rodents).
+This repository contains code to simulate and analyze the model and data related to thresholded Gaussian process model, which is a model of place maps observed in CA1 region of mammalian hippocampus. The model works across commonalities (1, 2, and 3 dimensional place maps), across spatialscale, and across species (bats and rodents).
 
-You can find the paper here: [Universal statistics of hippocampal place fields across species and dimensionalities](https://www.cell.com/neuron/fulltext/S0896-6273(25)00043-1?uuid=uuid:abc402c2-bb29-4d4e-910d-95b2d0ec50c6)
+You can find the paper here: 
+[[https://www.cell.com/neuron/fulltext/S0896-6273(25)00043-1?uuid=uuid:abc402c2-bb29-4d4e-910d-95b2d0ec50c6][Universal statistics of hippocampal place fields across species and dimensionalities]]
 
 * Quick start
 ***** Import the model objects for 1D as follows:
